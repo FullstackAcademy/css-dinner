@@ -132,7 +132,7 @@ var levels = [
     </plate>`
   },
   {
-    doThis : "Select the small oranges in the bentos",
+    doThis : "Extra Credit: Select the small oranges in the bentos",
     selector : "bento orange.small",
     syntax: "Put your back into it!",
     helpTitle: "You can do it...",
@@ -154,7 +154,7 @@ var levels = [
     `
   },
   {
-    doThis : "Select all the things!",
+    doThis : "Extra Credit: Select all the things!",
     selector : "*",
     selectorName:  "The Universal Selector",
     helpTitle: "You can select everything!",
@@ -178,7 +178,7 @@ var levels = [
   {
     selectorName: "Child Selector",
     syntax: "A > B&nbsp;",
-    doThis : "Select the apple directly on a plate",
+    doThis : "Extra Credit: Select the apple directly on a plate",
     selector : "plate > apple",
     helpTitle: "Select direct children of an element",
     help : "You can select elements that are direct children of other elements. A child element is any element that is nested directly in another element. <br><br>Elements that are nested deeper than that are called descendant elements.",
@@ -202,7 +202,7 @@ var levels = [
   {
     selectorName: "First Child Pseudo-selector",
     helpTitle: "Select a first child element inside of another element",
-    doThis : "Select the top orange",
+    doThis : "Extra Credit: Select the top orange",
     selector : "plate :first-child",
     syntax: ":first-child",
 
@@ -226,7 +226,7 @@ var levels = [
   {
     selectorName: "Nth Child Pseudo-selector",
     helpTitle: "Select an element by its order in another element",
-    doThis : "Select the 3rd plate",
+    doThis : "Extra Credit: Select the 3rd plate",
     selector : ":nth-child(3)",
     syntax: ":nth-child(A)",
     help : "Selects the <strong>nth</strong> (Ex: 1st, 3rd, 12th etc.) child element in another element.",
